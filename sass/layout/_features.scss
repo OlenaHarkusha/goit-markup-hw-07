@@ -1,0 +1,38 @@
+.features__list {
+  display: flex;
+  gap: 30px;
+}
+
+.features__item {
+  width: 270px;
+}
+
+.features__wrapper {
+  margin-bottom: 30px;
+
+  width: 270px;
+  height: 120px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: $grey-bg-color;
+  border-radius: 4px;
+}
+
+.features__title {
+  margin-bottom: 10px;
+
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: $header-color;
+}
+
+.features__text {
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
